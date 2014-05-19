@@ -38,7 +38,7 @@ function widget_untappd()
         	        break;
         	    }
         		echo wptexturize('<div class="widget_untappd_beer"><a target="_blank" href="' . $item['link'] . '">' . $item['title'] . '</a></div>');
-        		$limit++;
+        		$limit--;
         	}
     	} else {
     	    echo wptexturize('<div class="widget_untappd_beer">What?!?  No beers yet?!?<br /><br /></div>');
